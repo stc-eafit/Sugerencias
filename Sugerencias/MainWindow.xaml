@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sugerencias"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="Deja tu sugerencia" Height="Auto" Width="Auto"
+        FontFamily="Segoe UI Light">
+    <Frame x:Name="_mainFrame">
         
-    </Grid>
+    </Frame>
 </Window>

@@ -16,16 +16,18 @@ using System.Windows.Shapes;
 namespace Sugerencias
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Inicio.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Inicio : Page
     {
-        public MainWindow()
+        public Inicio()
         {
             InitializeComponent();
-            _mainFrame.Navigate(new Inicio());
         }
-
-        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var analis = new Analisis();
+            this.NavigationService.Navigate(analis);
+        }
     }
 }
